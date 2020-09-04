@@ -1,0 +1,301 @@
+/*Basic*/
+*{
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+	outline: none !important;
+}
+
+h2{
+	font-weight: 600;
+	font-size: 60px;
+	color: #1e1e1e;
+}
+#Hero button,
+#contact button{
+	background-color: #ffe600;
+	font-weight: bold;
+	font-size: 15px;
+	border: 1px solid #ffe600;
+}
+#Hero button:hover,
+#contact button:hover{
+	background: #fff;
+}
+/*Menu CSS*/
+.bg-light{
+	background: white !important;
+}
+nav a.navbar-brand img{
+	height: 40px;
+}
+nav ul li a{
+	font-weight: 500;
+	color: #333 !important;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav ul li:hover a{
+	color: gray !important;
+}
+/*Hero Section*/
+#Hero img{
+	height: 541px;
+	width: auto;
+} 
+#Hero p{
+	font-size: 16px;
+	color: #1e1e1e;
+}
+/*Showcase Section*/
+#Showcase .portfolio_button button{
+	font-size: 12px;
+	padding: 10px 15px;
+	border: none;
+	background: #fff;
+	font-weight: 500;
+}
+#Showcase .portfolio_button button:hover{
+	background: #fbe831;
+}
+#Showcase .portfolio_items .portfolio_item{
+	position: relative;
+	height: 350px;
+	width: 350px;
+	display: inline-block;
+}
+#Showcase .portfolio_items .portfolio_item img{
+	height: 350px;
+	width: 350px;
+	display: block;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay{
+	position: absolute;
+	transition: .3s;
+	opacity: 0;
+	background-color: #fbe831;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay .portfolio_overlay_text{
+	color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_left_hover{
+	height: 100%;
+	width: 0;
+	top: 0;
+	left: 0;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_right_hover{
+	height: 100%;
+	width: 0;
+	top: 0;
+	right: 0;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_up_hover{
+	height: 0%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_down_hover{
+	height: 0%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_fade_hover{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	transition: 1s !important;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_cross_top_hover{
+	height: 0%;
+	width: 0%;
+	top: 0;
+	left: 0;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_cross_right_hover{
+	height: 0%;
+	width: 0%;
+	top: 0;
+	right: 0;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_cross_bottom_hover{
+	height: 0%;
+	width: 0%;
+	bottom: 0;
+	right: 0;
+}
+#Showcase .portfolio_items .portfolio_item .portfolio_overlay_cross_left_hover{
+	height: 0%;
+	width: 0%;
+	bottom: 0;
+	left: 0;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay{
+	opacity: 1;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_left_hover{
+	width: 100%;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_right_hover{
+	width: 100%;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_up_hover{
+	height: 100%;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_down_hover{
+	height: 100%;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_cross_top_hover{
+	height: 100%;
+	width: 100%;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_cross_right_hover{
+	height: 100%;
+	width: 100%;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_cross_bottom_hover{
+	height: 100%;
+	width: 100%;
+}
+#Showcase .portfolio_items .portfolio_item:hover .portfolio_overlay_cross_left_hover{
+	height: 100%;
+	width: 100%;
+}
+#about .about_img_overlay{
+	background: #ffe600;
+	width: 60%;
+	text-align: center;
+	margin-top: -30px;
+	position: inherit;
+}
+#blog .blog_item{
+	position: relative;
+	height: 263px;
+	width: 350px;
+	display: inline-block;
+}
+#blog .blog_item img{
+	height: 263px;
+	width: 350px;
+	display: block;
+}
+#blog .blog_item .blog_overlay{
+	position: absolute;
+	transition: .3s;
+	opacity: 0;
+	background-color: #fbe831;
+}
+#blog .blog_item .blog_overlay .blog_overlay_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#blog .blog_item:hover .blog_overlay{
+	opacity: 1;
+}
+#blog .blog_item .blog_overlay_bottom{
+	height: 0;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+#blog .blog_item:hover .blog_overlay_bottom{
+	height: 100%;
+}
+#blog .blog_text .blog_item_link{
+	color: #000;
+}
+#blog .blog_text .blog_item_link h3{
+	font-weight: 600;
+}
+#contact img{
+	height: 500px;
+	width: auto;
+}
+#contact .contact_addr p{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+}
+#contact .contact_addr p a{
+	color: #000;
+}
+footer{
+	background-color: #1e1e1e;
+}
+footer p{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 600;
+}
+footer a{
+	color: #fff;
+	font-size: 11px;
+	font-weight: 600;
+}
+footer a:hover{
+	color: #fff;
+}
+@media only screen and (max-width: 1199px) {
+  h2 {
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 361px) {
+  h2 {
+    font-size: 30px;
+  }
+  #Hero img{
+  	display: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #Showcase .brand_carousel img{
+  	width: 200px;
+  	height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #Showcase .brand_carousel img{
+  	width: 150px;
+  	height: auto;
+  }
+}
+@media only screen and (max-width: 510px) {
+  #Showcase .brand_carousel img{
+  	width: 100px;
+  	height: auto;
+  }
+}
+@media only screen and (max-width: 330px) {
+  #Showcase .brand_image_carousel{
+  	display: none;
+  }
+}
+@media only screen and (max-width: 360px) {
+  h5{
+  	font-size: 16px;
+  }
+  p{
+  	font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #contact .contact_addr p{
+  	font-size: 12px;
+  }
+}
